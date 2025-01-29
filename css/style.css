@@ -1,0 +1,240 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e7dec1;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Nav Styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #d197c7;
+  padding: 10px;
+  color: #eee7d0;
+}
+
+nav p,
+nav a {
+  margin: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+nav a {
+}
+
+nav a:hover {
+  color: #ff9900;
+}
+
+/* Footer Styles */
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #222;
+  padding: 10px;
+  color: #fff;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer a:hover {
+  color: #ff9900;
+}
+
+/* Splash Section */
+.splash {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #dadef3;
+}
+
+.splash h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.splash img {
+  border-radius: 50%;
+  border: 3px solid #333;
+}
+
+.splash p {
+  font-style: italic;
+  color: #666;
+}
+
+/* Horizontal Rules */
+hr {
+  border: 1px solid #c99898;
+  margin: 20px 0;
+}
+
+/* Sections */
+section {
+  padding: 20px;
+}
+
+/* Section Headings */
+section h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #555;
+}
+
+/* Paragraph Styles */
+section p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* link styles */
+section a {
+}
+section a:hover {
+}
+
+/* List Styles */
+ul {
+  list-style-type: square;
+  margin: 10px 0;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: 150px auto;
+}
+dl dt {
+  font-weight: bold;
+}
+dl dd {
+  margin: 0;
+}
+
+/* Project Section */
+.three-col {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #e2a8c3;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.card h3 {
+  margin-top: 10px;
+  font-size: 1.25rem;
+}
+
+/* Contact Page Styles */
+.one-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+form {
+  width: 100%;
+  max-width: 400px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.contact-container h2 {
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #0056b3;
+}
